@@ -1,5 +1,7 @@
 const myImage = document.querySelector("img");
 
+
+//This swtiches my picture to youtube logo when you click on it.
 myImage.onclick  = () => {
     const mySrc = myImage.getAttribute("src");
 if(mySrc == "images/test.png") {
